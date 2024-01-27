@@ -1,0 +1,109 @@
+
+.form-body{
+    width: 30vw;
+    position: relative;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    padding-bottom: 5px;
+    position: relative;
+    height: 15vh; 
+}
+.form-element-text{
+    display:flex;
+    padding-bottom: 2px;
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 200;
+
+}
+
+.form-element-input{
+    display: flex;
+    flex-wrap: wrap;
+    height: 5vh;
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 20px;
+    border: 1px solid rgb(199, 195, 195);
+    border-bottom: 3px  solid rgb(199, 195, 195) !important;
+    
+}
+.form-element-input:hover,.form-element-input:active{
+    border: 1px solid rgb(199, 195, 195);
+    border-bottom: 3px  solid rgba(4, 184, 241, 1) !important;
+    outline: 0px;
+    
+}
+
+.form-element-button{
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 200;
+    color: #ffffff;
+    background-color: rgba(4, 184, 241, 1);
+    border-radius:5px;
+    border: 0px ;
+    box-shadow: 0px 1px 16px 1px #ccc;
+    margin: 3px;
+    padding: 5px;
+}
+.form-element-button:hover{
+    background-color: azure;
+    color: rgba(4, 184, 241, 1);
+    border: 2px solid rgba(4, 184, 241, 1);
+}
+
+.form-element-input-date{
+    display: flex;
+    flex-wrap: wrap;
+    height: 10vh !important;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 1.1rem !important;
+    border: 1px solid rgb(199, 195, 195);
+    border-bottom: 3px  solid rgb(199, 195, 195) !important;
+
+}
+.form-element-input-date:hover,.form-element-input-date:active{
+    border: 1px solid rgb(199, 195, 195);
+    border-bottom: 3px  solid rgba(4, 184, 241, 1) !important;
+    outline: 0px;
+    
+}
+
+.form-element-input-select{
+    display: flex;
+    flex-wrap: wrap;
+    height: 8vh !important;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: "Poppins";
+    font-size: 16px;
+    border: 1px solid rgb(199, 195, 195);
+    border-bottom: 3px  solid rgb(199, 195, 195) !important;
+    
+}
+.form-element-input-select:hover,.form-element-input-select:active{
+    border: 1px solid rgb(199, 195, 195);
+    border-bottom: 3px  solid rgba(4, 184, 241, 1) !important;
+    outline: 0px;
+    
+}
+.form-multistep-body{
+    display:flex;
+    position: relative;
+    height:40vh;
+    width:30vw;
+    flex-direction: column;
+
+}

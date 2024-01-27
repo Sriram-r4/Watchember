@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.herobanner{
+    width: 100%;
+    height:500px;
+    position: relative;
+    display: flex;
+    background-image: url('../assets/hero-banner-image.png');
+    background-repeat: no-repeat;  
+    background-size: cover;
+    margin-top: 10vh;
+}
+.hb-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.hb-title{
+    font-family: "Poppins";
+    font-size: 64px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+.hb-title-desc{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 1px 0px 24px 0px;
+}
+
+.hb-title-sub{
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 100;
+    color: #ffffff;
+    margin: 20px 0px ;
+
+}
+.hb-title-button{
+    background-color:rgba(4, 184, 241, 1);
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.hb-button-icon{
+    display: flex;
+    align-items: center;
+}
+.hb-button-text{
+    display: flex;
+    align-items: center;
+}
+.hb-title-color{
+    color: rgba(4, 184, 241, 1);
+}

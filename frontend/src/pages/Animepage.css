@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.anime-page-container{
+    top:10vh;
+    width:100%;
+    position: relative;
+    height: 149vh;
+}
+.anime-page-title-container{
+    width:100%;
+    height: 20vh;
+    background-image: url("../assets/anime-cover-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.anime-page-title{
+    display:flex ;
+    justify-content: center;
+    color:#ffffff;
+    align-items: center;
+    padding: 2px; 
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 300; 
+
+}
+.anime-page-title-desc{
+    display:flex ;
+    justify-content: center;
+    color:#ffffff;
+    margin :2px;
+    padding: 2px; 
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 100; 
+   
+}
+
+.anime-page-body-container{
+    display: flex;
+    width:100%;
+    height:120vh;
+    background-color:azure !important;
+    position: relative;
+    justify-content:center;
+    align-items: center;  
+    top: 0vh;
+    flex-direction: column;
+}
+
+.table-container{
+    display:flex;
+    position: relative;
+    
+    height:70vh;
+    border:solid 1px black;
+    border-radius: 10px;
+    background-color: white;
+    overflow-x: scroll;
+}
+.anime-button-container{
+    display: flex;
+    position: relative;
+    align-self: flex-end;
+   margin-right: 3em;
+   
+
+}
+
+.link-element{
+    text-decoration: none;
+    margin-right: 10px;
+}
